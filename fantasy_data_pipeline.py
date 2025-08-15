@@ -1,7 +1,8 @@
-from io import StringIO
-import requests
-import pandas as pd
 from bs4 import BeautifulSoup
+from io import StringIO
+import os
+import pandas as pd
+import requests
 
 
 def fetch_adp(position: str) -> pd.DataFrame:
@@ -207,7 +208,7 @@ def fetch_qb_statistics() -> pd.DataFrame:
     Returns:
         pd.DataFrame: A DataFrame containing the advanced quarterback statistics.
     """
-    qb_import_df = pd.read_csv("FantasyPros_Fantasy_Football_Advanced_Stats_Report_QB.csv")
+    qb_import_df = pd.read_csv(r"downloaded_data\FantasyPros_Fantasy_Football_Advanced_Stats_Report_QB.csv")
 
     keep_cols = [
         "Player",
@@ -266,7 +267,7 @@ def fetch_rb_statistics() -> pd.DataFrame:
     Returns:
         pd.DataFrame: A DataFrame containing the advanced running back statistics.
     """
-    rb_import_df = pd.read_csv("FantasyPros_Fantasy_Football_Advanced_Stats_Report_RB.csv")
+    rb_import_df = pd.read_csv(r"downloaded_data\FantasyPros_Fantasy_Football_Advanced_Stats_Report_RB.csv")
 
     # Selecting relevant columns
     keep_cols = [
@@ -323,7 +324,7 @@ def fetch_wr_statistics() -> pd.DataFrame:
     Returns:
         pd.DataFrame: A DataFrame containing the advanced wide receiver statistics.
     """
-    wr_import_df = pd.read_csv("FantasyPros_Fantasy_Football_Advanced_Stats_Report_WR.csv")
+    wr_import_df = pd.read_csv(r"downloaded_data\FantasyPros_Fantasy_Football_Advanced_Stats_Report_WR.csv")
 
     # Selecting relevant columns
     keep_cols = [
@@ -380,7 +381,7 @@ def fetch_te_statistics() -> pd.DataFrame:
     Returns:
         pd.DataFrame: A DataFrame containing the advanced tight end statistics.
     """
-    te_import_df = pd.read_csv("FantasyPros_Fantasy_Football_Advanced_Stats_Report_TE.csv")
+    te_import_df = pd.read_csv(r"downloaded_data\FantasyPros_Fantasy_Football_Advanced_Stats_Report_TE.csv")
 
     # Selecting relevant columns
     keep_cols = [
@@ -477,12 +478,14 @@ def main():
     proj_dst = merge_dst()
 
     # Save the full data to CSV files
-    full_qb_profile.to_csv("full_qb_data.csv", index=False)
-    full_rb_profile.to_csv("full_rb_data.csv", index=False)
-    full_wr_profile.to_csv("full_wr_data.csv", index=False)
-    full_te_profile.to_csv("full_te_data.csv", index=False)
-    proj_k.to_csv("full_k_data.csv", index=False)
-    proj_dst.to_csv("full_dst_data.csv", index=False)
+    os.makedirs("full_positional_data", exist_ok=True)
+
+    full_qb_profile.to_csv("full_positional_data/full_qb_data.csv", index=False)
+    full_rb_profile.to_csv("full_positional_data/full_rb_data.csv", index=False)
+    full_wr_profile.to_csv("full_positional_data/full_wr_data.csv", index=False)
+    full_te_profile.to_csv("full_positional_data/full_te_data.csv", index=False)
+    proj_k.to_csv("full_positional_data/full_k_data.csv", index=False)
+    proj_dst.to_csv("full_positional_data/full_dst_data.csv", index=False)
 
     print("All data fetched and processed successfully.")
 
