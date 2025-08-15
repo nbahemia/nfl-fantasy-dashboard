@@ -51,7 +51,7 @@ def merge_position(position):
 
     df_merged = pd.merge(df_adp, df_proj, on="Player", how="inner")
 
-    cols = ["Player", "Team", "(Bye)"] + [c for c in df_merged.columns if c not in ["Player", "Team,", "(Bye)"]]
+    cols = ["Player", "Team", "(Bye)"] + [c for c in df_merged.columns if c not in ["Player", "Team", "(Bye)"]]
     df_merged = df_merged[cols]
 
     return df_merged
