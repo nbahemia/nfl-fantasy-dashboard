@@ -198,7 +198,6 @@ if __name__ == "__main__":
     wr_df = fetch_wr_statistics()
     te_df = fetch_te_statistics()
 
-    """
     print("Quarterback Statistics:")
     print(qb_df)
 
@@ -210,4 +209,3 @@ if __name__ == "__main__":
 
     print("\nTight End Statistics:")
     print(te_df)
-    """

@@ -88,6 +88,7 @@ if __name__ == "__main__":
     
     for pos in positions:
         df = merge_position(pos)
+        
         df.to_csv(f"{pos}_data.csv", index=False)
         print(f"Saved {pos}_data.csv")
     

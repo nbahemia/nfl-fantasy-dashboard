@@ -461,16 +461,16 @@ def main():
     full_qb_profile = merge_skill_position_metrics(adv_stats_qb, adp_proj_qb)
 
     adv_stats_rb = fetch_rb_statistics()
-    proj_rb = fetch_projections("rb")
-    full_rb_profile = merge_skill_position_metrics(adv_stats_rb, proj_rb)
+    adp_proj_rb = merge_position("rb")
+    full_rb_profile = merge_skill_position_metrics(adv_stats_rb, adp_proj_rb)
 
     adv_stats_wr = fetch_wr_statistics()
-    proj_wr = fetch_projections("wr")
-    full_wr_profile = merge_skill_position_metrics(adv_stats_wr, proj_wr)
+    adp_proj_wr = merge_position("wr")
+    full_wr_profile = merge_skill_position_metrics(adv_stats_wr, adp_proj_wr)
 
     adv_stats_te = fetch_te_statistics()
-    proj_te = fetch_projections("te")
-    full_te_profile = merge_skill_position_metrics(adv_stats_te, proj_te)
+    adp_proj_te = merge_position("te")
+    full_te_profile = merge_skill_position_metrics(adv_stats_te, adp_proj_te)
 
     # Save the two positions without advanced stats
     proj_k = merge_position("k")
@@ -478,14 +478,14 @@ def main():
     proj_dst = merge_dst()
 
     # Save the full data to CSV files
-    os.makedirs("full_positional_data", exist_ok=True)
+    os.makedirs("derived_data", exist_ok=True)
 
-    full_qb_profile.to_csv("full_positional_data/full_qb_data.csv", index=False)
-    full_rb_profile.to_csv("full_positional_data/full_rb_data.csv", index=False)
-    full_wr_profile.to_csv("full_positional_data/full_wr_data.csv", index=False)
-    full_te_profile.to_csv("full_positional_data/full_te_data.csv", index=False)
-    proj_k.to_csv("full_positional_data/full_k_data.csv", index=False)
-    proj_dst.to_csv("full_positional_data/full_dst_data.csv", index=False)
+    full_qb_profile.to_csv("derived_data/full_qb_data.csv", index=False)
+    full_rb_profile.to_csv("derived_data/full_rb_data.csv", index=False)
+    full_wr_profile.to_csv("derived_data/full_wr_data.csv", index=False)
+    full_te_profile.to_csv("derived_data/full_te_data.csv", index=False)
+    proj_k.to_csv("derived_data/full_k_data.csv", index=False)
+    proj_dst.to_csv("derived_data/full_dst_data.csv", index=False)
 
     print("All data fetched and processed successfully.")
 
