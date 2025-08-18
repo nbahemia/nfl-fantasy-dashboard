@@ -1,35 +1,33 @@
-Team,Team Abbr,WR Targets,WR %,RB Targets,RB %,TE Targets,TE %,Total Targets
-Arizona Cardinals,ARI,250.0,47.8,95.0,18.2,178.0,34.0,523.0
-Atlanta Falcons,ATL,367.0,68.1,85.0,15.8,87.0,16.1,539.0
-Baltimore Ravens,BAL,238.0,52.1,81.0,17.7,138.0,30.2,457.0
-Buffalo Bills,BUF,295.0,59.6,82.0,16.6,118.0,23.8,495.0
-Carolina Panthers,CAR,341.0,66.3,90.0,17.5,83.0,16.1,514.0
-Chicago Bears,CHI,380.0,72.1,77.0,14.6,70.0,13.3,527.0
-Cincinnati Bengals,CIN,371.0,59.2,101.0,16.1,155.0,24.7,627.0
-Cleveland Browns,CLE,381.0,60.1,87.0,13.7,166.0,26.2,634.0
-Dallas Cowboys,DAL,397.0,64.1,86.0,13.9,136.0,22.0,619.0
-Denver Broncos,DEN,359.0,65.5,117.0,21.4,72.0,13.1,548.0
-Detroit Lions,DET,309.0,59.5,110.0,21.2,100.0,19.3,519.0
-Green Bay Packers,GB,306.0,65.9,71.0,15.3,87.0,18.8,464.0
-Houston Texans,HOU,341.0,62.5,94.0,17.2,111.0,20.3,546.0
-Indianapolis Colts,IND,351.0,71.5,65.0,13.2,75.0,15.3,491.0
-Jacksonville Jaguars,JAX,302.0,57.9,83.0,15.9,137.0,26.2,522.0
-Kansas City Chiefs,KC,283.0,49.7,94.0,16.5,192.0,33.7,569.0
-Las Vegas Raiders,LV,281.0,47.5,112.0,19.0,198.0,33.5,591.0
-Los Angeles Chargers,LAC,323.0,66.5,55.0,11.3,108.0,22.2,486.0
-Los Angeles Rams,LAR,403.0,74.5,55.0,10.2,83.0,15.3,541.0
-Miami Dolphins,MIA,286.0,50.4,131.0,23.1,151.0,26.6,568.0
-Minnesota Vikings,MIN,315.0,60.8,86.0,16.6,117.0,22.6,518.0
-New England Patriots,NE,256.0,51.4,83.0,16.7,159.0,31.9,498.0
-New Orleans Saints,NO,238.0,46.0,135.0,26.1,144.0,27.9,517.0
-New York Giants,NYG,402.0,72.6,88.0,15.9,64.0,11.6,554.0
-New York Jets,NYJ,366.0,62.1,115.0,19.5,108.0,18.3,589.0
-Philadelphia Eagles,PHI,261.0,62.6,69.0,16.5,87.0,20.9,417.0
-Pittsburgh Steelers,PIT,229.0,49.9,109.0,23.7,121.0,26.4,459.0
-San Francisco 49ers,SF,312.0,60.8,91.0,17.7,110.0,21.4,513.0
-Seattle Seahawks,SEA,345.0,60.6,110.0,19.3,114.0,20.0,569.0
-Tampa Bay Buccaneers,TB,335.0,59.5,121.0,21.5,107.0,19.0,563.0
-Tennessee Titans,TEN,282.0,55.7,95.0,18.8,129.0,25.5,506.0
-Washington Commanders,WAS,315.0,62.6,79.0,15.7,109.0,21.7,503.0
-,,,,,,,,
-,,,,,,,,
+Team,Team Abbr,Team Color,WR Targets,WR %,RB Targets,RB %,TE Targets,TE %,Total Targets
+Arizona Cardinals,ARI,#97233F,250,47.8,95,18.2,178,34,523
+Atlanta Falcons,ATL,#A71930,367,68.1,85,15.8,87,16.1,539
+Baltimore Ravens,BAL,#241773,238,52.1,81,17.7,138,30.2,457
+Buffalo Bills,BUF,#00338D,295,59.6,82,16.6,118,23.8,495
+Carolina Panthers,CAR,#0085CA,341,66.3,90,17.5,83,16.1,514
+Chicago Bears,CHI,#0B162A,380,72.1,77,14.6,70,13.3,527
+Cincinnati Bengals,CIN,#FB4F14,371,59.2,101,16.1,155,24.7,627
+Cleveland Browns,CLE,#311D00,381,60.1,87,13.7,166,26.2,634
+Dallas Cowboys,DAL,#041E42,397,64.1,86,13.9,136,22,619
+Denver Broncos,DEN,#002244,359,65.5,117,21.4,72,13.1,548
+Detroit Lions,DET,#0076B6,309,59.5,110,21.2,100,19.3,519
+Green Bay Packers,GB,#203731,306,65.9,71,15.3,87,18.8,464
+Houston Texans,HOU,#03202F,341,62.5,94,17.2,111,20.3,546
+Indianapolis Colts,IND,#002C5F,351,71.5,65,13.2,75,15.3,491
+Jacksonville Jaguars,JAX,#006778,302,57.9,83,15.9,137,26.2,522
+Kansas City Chiefs,KC,#E31837,283,49.7,94,16.5,192,33.7,569
+Las Vegas Raiders,LV,#000000,281,47.5,112,19,198,33.5,591
+Los Angeles Chargers,LAC,#0080C6,323,66.5,55,11.3,108,22.2,486
+Los Angeles Rams,LAR,#003594,403,74.5,55,10.2,83,15.3,541
+Miami Dolphins,MIA,#008E97,286,50.4,131,23.1,151,26.6,568
+Minnesota Vikings,MIN,#4F2683,315,60.8,86,16.6,117,22.6,518
+New England Patriots,NE,#002244,256,51.4,83,16.7,159,31.9,498
+New Orleans Saints,NO,#D3BC8D,238,46,135,26.1,144,27.9,517
+New York Giants,NYG,#0B2265,402,72.6,88,15.9,64,11.6,554
+New York Jets,NYJ,#125740,366,62.1,115,19.5,108,18.3,589
+Philadelphia Eagles,PHI,#004C54,261,62.6,69,16.5,87,20.9,417
+Pittsburgh Steelers,PIT,#FFB612,229,49.9,109,23.7,121,26.4,459
+San Francisco 49ers,SF,#AA0000,312,60.8,91,17.7,110,21.4,513
+Seattle Seahawks,SEA,#002244,345,60.6,110,19.3,114,20,569
+Tampa Bay Buccaneers,TB,#D50A0A,335,59.5,121,21.5,107,19,563
+Tennessee Titans,TEN,#0C2340,282,55.7,95,18.8,129,25.5,506
+Washington Commanders,WAS,#5A1414,315,62.6,79,15.7,109,21.7,503
