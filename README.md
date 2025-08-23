@@ -55,12 +55,23 @@ The final dataset included 400+ players/fantasy entities across all NFL teams.
 ---
 
 ## Dashboard Preview
-![Dashboard Screenshot](dashboard_overview_page.PNG)
+![Dashboard Overview](dashboard_overview_page.PNG)
 
-## Positional Preview
-![QB Overview Screenshot](qb_overview_page.PNG)
-![RB Overview Screenshot](rb_overview_page.PNG)
-![WR Overview Screenshot](wr_overview_page.PNG)
-![TE Overview Screenshot](te_overview_page.PNG)
-![K Overview Screenshot](k_overview_page.PNG)
-![DST Overview Screenshot](dst_overview_page.PNG)
+## Positional Previews
+### Quarterbacks (QB)
+![QB Overview](images/qb_overview_page.PNG)
+
+### Running Backs (RB)
+![RB Overview](images/rb_overview_page.PNG)
+
+### Wide Receivers (WR)
+![WR Overview](images/wr_overview_page.PNG)
+
+### Tight Ends (TE)
+![TE Overview](images/te_overview_page.PNG)
+
+### Kickers (K)
+![K Overview](images/k_overview_page.PNG)
+
+### Defense/Special Teams (DST)
+![DST Overview](images/dst_overview_page.PNG)
