@@ -55,5 +55,12 @@ The final dataset included 400+ players/fantasy entities across all NFL teams.
 ---
 
 ## Dashboard Preview
-![Dashboard PDF](pdf_view_fantasy_football_dashboard)
+![Dashboard Screenshot](dashboard_overview_page.PNG)
 
+## Positional Preview
+![QB Overview Screenshot](qb_overview_page.PNG)
+![RB Overview Screenshot](rb_overview_page.PNG)
+![WR Overview Screenshot](wr_overview_page.PNG)
+![TE Overview Screenshot](te_overview_page.PNG)
+![K Overview Screenshot](k_overview_page.PNG)
+![DST Overview Screenshot](dst_overview_page.PNG)
