@@ -55,7 +55,7 @@ The final dataset included 400+ players/fantasy entities across all NFL teams.
 ---
 
 ## Dashboard Preview
-![Dashboard Overview](dashboard_overview_page.PNG)
+![Dashboard Overview](images/dashboard_overview_page.PNG)
 
 ## Positional Previews
 ### Quarterbacks (QB)
